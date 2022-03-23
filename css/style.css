@@ -601,7 +601,7 @@ color: #d84f57;
      font-size: 12px;
 	}
 	#about img{
-		height: 200px;
+		height: unset;
 	}
 	#about .abt , span{
 		font-size: 16px;
