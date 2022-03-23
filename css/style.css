@@ -342,9 +342,6 @@ background-repeat: no-repeat;
   
   #about p{
 	margin-top: 5%;
-	text-align: left;
-	font-size: 18px;
-	font-weight: 600;
 	text-align: center;
   }
   .abt-img{
@@ -629,5 +626,9 @@ color: #d84f57;
 		font-size: 14px;
 	}
 }
-  
+@media only screen and (max-width: 1440px) {
+	.vehicles-card .card{
+		height: 70vh;
+	}
+}  
 
