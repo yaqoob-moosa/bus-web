@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Numans'); */
+
+body{
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+width: 100%;
+cursor: pointer;
+}
+.login_btn{
+background-color:rgb(0, 100, 0);
+width: 100%;
+color:lightgray;
+ }
+ .login_btn:hover{
+     background-color: lightgray;
+ }
+ .card-header{
+     text-align: center;
+     background: rgb(0, 100, 0);   
+color:lightgray;
+ }
+ .card-body i{
+    color: rgb(0, 100, 0); 
+ }
+ .card-footer{
+    background: rgb(0, 100, 0);
+    color:lightgray;
+ }

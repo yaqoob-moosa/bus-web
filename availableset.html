@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="shortcut icon" type="image/png" href="img/icon-removebg-preview.png">
+        <title>Bus Ticket Book Web</title>
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bus web</title>
+        <link rel="stylesheet" type="text/css" href="css/busset.css">
+        <!-- Vendor CSS Files -->
+        <link href="assts/css/bootstrap-grid.css" rel="stylesheet">
+        <link href="assts/css/bootstrap-grid.css.map" rel="stylesheet">
+        <link href="assts/css/bootstrap-grid.min.css" rel="stylesheet">
+        <link href="assts/css/bootstrap-grid.min.css.map" rel="stylesheet">
+        <link href="assts/css/bootstrap-reboot.css" rel="stylesheet">
+        <link href="assts/css/bootstrap-reboot.css.map" rel="stylesheet">
+        <link href="assts/css/bootstrap-reboot.min.css" rel="stylesheet">
+        <link href="assts/css/bootstrap-reboot.min.css.map" rel="stylesheet">
+        <link href="assts/css/bootstrap.css" rel="stylesheet">
+        <link href="assts/css/bootstrap.css.map" rel="stylesheet">
+        <link href="assts/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assts/css/bootstrap.min.css.map" rel="stylesheet">
+      
+    </head>
+<body>
+    <div class="bus-container">
+        <label>Available Seats</label>
+        <select id="bus">
+            <option value="10">Frist ($10)</option>
+            <option value="12">Secound ($12)</option>
+            <option value="8">Thrid ($8)</option>
+            <option value="9">Fourth ($9)</option>
+        </select>
+    </div>
+
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>Available Seats</small>
+        </li>
+
+        <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+        </li>
+
+        <li>
+            <div class="seat occupied"></div>
+            <small>Reserved Seats</small>
+        </li>
+    </ul>
+
+    <div class="container">
+        <div class="center">
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+        </div>
+    </div>
+</div>
+    <p class="text">
+        You have selected <span id="count">0</span> seats for a price of $<span id="total">0</span>
+    </p>
+    <div class="col text-center">
+    <a href="ticket-booking.html" class="btn-primary"><i class="fa-solid fa-ticket">
+    </i> Book Your Ticket Now</a></div>
+    <script src="js/available.js"></script>
+    <!-- Vendor JS Files -->
+ <script src="assts/js/bootstrap.bundle.js"></script>
+ <script src="assts/js/bootstrap.bundle.js.map"></script>
+ <script src="assts/js/bootstrap.bundle.min.js"></script>
+ <script src="assts/js/bootstrap.bundle.min.js.map"></script>
+ <script src="assts/js/bootstrap.js"></script>
+ <script src="assts/js/bootstrap.js.map"></script>
+ <script src="assts/js/bootstrap.min.js"></script>
+ <script src="assts/js/bootstrap.min.js.map"></script>
+</body>

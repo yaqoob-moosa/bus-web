@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" type="image/png" href="img/icon-removebg-preview.png">
+	<title>Bus Ticket Book Web</title>
+	<!-- font awesome cdn link  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bus web</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Vendor CSS Files -->
+	<link rel="stylesheet" type="text/css" href="./assts/css/bootstrap.min.css">
+	<script src="./assts/js/jquery-3.4.1.slim.min.js"></script>
+	<script src="./assts/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<!-- nav -->
+	<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+		<a class="navbar-brand" href="inderx.html">Bus App</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#navbar">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#facity">Facility</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#discount">Discount</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#payment">Payments</a>
+				</li>
+				<span class="abc">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+				</span>
+
+			</ul>
+			<form class="form-inline my-2 my-lg-0" style="margin-right: 30px;">
+				<a href="login.html"><span><i class="fa fa-user" aria-hidden="true"></i></span></a>
+				<a href="restrition.html"><span><i class="fa fa-sign-in" aria-hidden="true"></i></span></a>
+			</form>
+		</div>
+	</nav>
+	<!-- nav end -->
+	<!-- slider -->
+	<div class="mains py-10">
+		<div class="container py-5">
+			<div class="row py-5">
+				<div class="col-lg-10 py-5 mx-auto">
+					<h1 class="text-white text-center">Wellcome to Bus Web</h1>
+					<h3 class="text-white text-center">Easy to Used</h3>
+					<form action="">
+						<div class="card mt-4">
+							<div class="card-body">
+								<div class="row">
+									<div class="autocomplete col-lg-3">
+										<label>From</label>
+										<input id="myInput" type="text" name="myCountry" class="btn2" placeholder="Enter Your location" required>
+									</div>
+									<div class="col-lg-3">
+										<label>To</label>
+										<select class="mt-2" name="" id="state" required>
+											<option value=""></option>
+											<option value="">Malir</option>
+											<option value="">Gulshan</option>
+											<option value="">Airpot</option>
+											<option value="">Saddar</option>
+										</select>
+									</div>
+									<div class="col-lg-3">
+										<label>Date</label>
+										<input type="date" class="btn2" name="date" value="Enter" required>
+									</div>
+									<div class="col-lg-3">
+										<label for="seeAnotherField">Passenger</label>
+										<select class="mt-2" name="" id="seeAnotherField" required>
+											<option value=""></option>
+											<option value="">1</option>
+											<option value="">2</option>
+											<option value="">3</option>
+											<option value="">4</option>
+											<option value="cx">Custom</option>
+										</select>
+									</div>
+									<div class="col-lg-3" id="otherFieldDiv">
+										<label for="otherField">Sons</label>
+										<input type="text" class="btn2" id="otherField1" placeholder="Enter Here"
+											required>
+									</div>
+									<div class="col-lg-3">
+										<button type="submit" class="btn1">Search</button>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</form>
+	<!-- slider end -->
+	<!-- facity -->
+	<div id="facity">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="contentt">
+						<h1 class="title">Facility</h1>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="vehicles-card">
+
+								<div class="card">
+									<i class="icano fa-solid fa-virus-covid"></i>
+									<div class="card-body">
+										<h5 class="card-heading">Traveling During COVID-19</h5>
+										<p class="card-per">Stay safe when you travel · Get vaccinated. · Keep distance
+											between
+											yourself and others (within about 6 feet, or 2 meters)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="vehicles-card">
+								<div class="card">
+									<i class="icano fa-solid fa-wifi"></i>
+									<div class="card-body">
+										<h5 class="card-heading">100% WiFi Availability</h5>
+										<p class="card-per">As well as providing your passengers with a seamless
+											journey,
+											SPARK®
+											helps businesses collate data on groups of people and their travelling
+											habits.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="vehicles-card">
+								<div class="card">
+									<i class="icano fa-solid fa-map-location-dot"></i>
+									<div class="card-body">
+										<h5 class="card-heading">Largest Bus Network</h5>
+										<p class="card-per">Choose from over 2,500 travel destinations in 35 countries
+											and
+											discover Memories with Bus Service.Easly using network system enjoy and fun!
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="vehicles-card">
+								<div class="card">
+									<i class="icano fa-brands fa-canadian-maple-leaf"></i>
+									<div class="card-body">
+										<h5 class="card-heading">Travel Environmentally-Friendly</h5>
+										<p class="card-per">Our efficient coaches are proven to have an excellent carbon
+											footprint per driven passenger-kilometer.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<!-- facity end -->
+	<!-- section -->
+	<section id="about">
+		<h2>About Us</h2>
+		<h3>WHY CHOOSE US?</h3>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-8 col-lg-6 content-about">
+					<div class="abt-img center">
+						<img src="img/download.jpg" width="100%" height="400px" alt="d">
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6">
+					<div class="abt">
+						<h3>Best Bus Service In The Country</h3>
+						<p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Dolore, Sequi Corrupti Corporis
+							Quaerat Voluptatem Ipsam Neque Labore Modi Autem, Saepe Numquam Quod Reprehenderit Rem?
+							Tempora Aut Soluta Odio Corporis Nihil! Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing
+							Elit. Aperiam, Nemo. Sit Porro Illo Eos Cumque Deleniti Iste Alias, Eum Natus.</p>
+						<div class="icons-container">
+							<div class="icons">
+								<i class="fas fa-laptop"></i>
+								<span>Online Service</span>
+							</div>
+							<div class="icons">
+								<i class="fas fa-dollar-sign"></i>
+								<span>Easy Payments</span>
+							</div>
+							<div class="icons">
+								<i class="fas fa-headset"></i>
+								<span>24/7 Service</span>
+							</div>
+						</div>
+						<a href="#" class="btn-primary" style="background-color:#d84f57;">learn more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end -->
+	<!-- discount -->
+	<section id="discount">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="contentt">
+						<h1>Discount</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class=" col-md-6 col-lg-6  col-xl-6">
+					<div class="main" style="margin-top: 67px;">
+						<h5>Enjoy Up To 25% Off</h5>
+						<h2>Buy One Get</h2>
+						<h4 style="color: black;"> One Free Business Class Bus</h4>
+						<button class="btn-primary" style="background-color:#d84f57;">Order Now </button>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-8  col-md-6 col-lg-6  col-xl-6">
+					<div class="img-content">
+						<img src="img/ECRdUnXXoAUkwt3.webp" alt="c">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end -->
+	<!-- srat -->
+	<div id="sections">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="contant">
+						<h1>Our Products</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque
+							eveniet
+							beatae</p>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card">
+								<img src="img/Zhong-Tong-busses-696x418.jpg">
+								<div class="card-body">
+									<h3>Available Bus</h3>
+									<h5>Per Suit</h5>
+									<h1>PKR 10000</h1>
+									<button class="btn-primary" style="background-color:#d84f57;">Order Now </button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<img src="img/Zhong-Tong-busses-696x418.jpg">
+								<div class="card-body">
+									<h3>Available Bus</h3>
+									<h5>Per Suit</h5>
+									<h1>PKR 10000</h1>
+									<button class="btn-primary" style="background-color:#d84f57;">Order Now </button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<img src="img/Zhong-Tong-busses-696x418.jpg">
+								<div class="card-body">
+									<h3>Available Bus</h3>
+									<h5>Per Suit</h5>
+									<h1>PKR 10000</h1>
+									<button class="btn-primary" style="background-color:#d84f57;">Order Now </button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!--  end -->
+	<div class="container">
+		<section id="core">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="contente">
+						<h3 class="core-title text-center">OUR CORE VALUES</h3>
+						<p class="core-pera text-center">The Baloch Daewoo Bus Service is one of the largest
+							passenger
+							transport company of Pakistan with an enviable passenger base and track record,
+							operating
+							across Punjab, Sindh, Khyber Pakhtunkhwa and Balochistan. Founded in 1955 by (Late)
+							Ahmad
+							Nawaz Khitran, the company is registered and services are backed with fully qualified
+							professional employees. We offer a safe and affordable passenger transport in luxury
+							coaches
+							and buses.</p>
+					</div>
+				</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	<!-- end -->
+	<!-- paymount  -->
+	<section id="payment">
+		<div class="container">
+			<div class="row blog">
+				<div class="col-md-12">
+					<div class="contantt">
+						<h1>Payment Methods</h1>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<img src="img/easypaisa-removebg-preview-removebg-preview.png" alt="easy">
+						</div>
+						<div class="col-md-3">
+							<img src="img/hbl-removebg-preview-removebg-preview.png" alt="hbl">
+						</div>
+						<div class="col-md-3">
+							<img src="img/abc-removebg-preview.png" alt="abc">
+						</div>
+						<div class="col-md-3">
+							<img src="img/Jazz_cash_logo_vector-removebg-preview.png" alt="jazz cash">
+						</div>
+					</div>
+					</sections>
+					<!-- Footer -->
+					<footer class="footer">
+						<div class="container bottom_border">
+							<div class="row">
+								<div class=" col-sm-4 col-md col-sm-4  col-12 col">
+									<h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+									<!--headin5_amrc-->
+									<p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting
+										industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+										1500s</p>
+									<p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+									<p><i class="fa fa-phone"></i> +91-9999878398 </p>
+									<p><i class="fa fa fa-envelope"></i> info@example.com </p>
+
+
+								</div>
+
+
+								<div class=" col-sm-4 col-md  col-6 col">
+									<h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+									<!--headin5_amrc-->
+									<ul class="footer_ul_amrc">
+										<li><a href="http://webenlance.com">Image Rectoucing</a></li>
+										<li><a href="http://webenlance.com">Clipping Path</a></li>
+										<li><a href="http://webenlance.com">Hollow Man Montage</a></li>
+										<li><a href="http://webenlance.com">Ebay & Amazon</a></li>
+										<li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+										<li><a href="http://webenlance.com">Image Cropping</a></li>
+									</ul>
+									<!--footer_ul_amrc ends here-->
+								</div>
+
+
+								<div class=" col-sm-4 col-md  col-6 col">
+									<h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+									<!--headin5_amrc-->
+									<ul class="footer_ul_amrc">
+										<li><a href="http://webenlance.com">Remove Background</a></li>
+										<li><a href="http://webenlance.com">Shadows & Mirror Reflection</a></li>
+										<li><a href="http://webenlance.com">Logo Design</a></li>
+										<li><a href="http://webenlance.com">Vectorization</a></li>
+										<li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+										<li><a href="http://webenlance.com">Image Cropping</a></li>
+									</ul>
+									<!--footer_ul_amrc ends here-->
+								</div>
+
+
+								<div class=" col-sm-4 col-md  col-12 col">
+									<h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+									<!--headin5_amrc ends here-->
+
+									<ul class="footer_ul2_amrc">
+										<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+											<p>Lorem Ipsum is simply dummy text of the printing...<a
+													href="#">https://www.lipsum.com/</a></p>
+										</li>
+										<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+											<p>Lorem Ipsum is simply dummy text of the printing...<a
+													href="#">https://www.lipsum.com/</a></p>
+										</li>
+										<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+											<p>Lorem Ipsum is simply dummy text of the printing...<a
+													href="#">https://www.lipsum.com/</a></p>
+										</li>
+									</ul>
+									<!--footer_ul2_amrc ends here-->
+								</div>
+							</div>
+						</div>
+					</footer>
+					<!-- ./Footer -->
+					<!-- copyright -->
+					<div class="copyright">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 col-md-12">
+									<p>Copyrights &copy; 2022 - <a
+											href="https://yaqoob-op.github.io/JAlAL.ARB/">ARB-Solutions</a>,
+										All Rights Reserved.</p>
+								</div>
+								<div class="col-lg-6 text-right col-md-12">
+									<div class="social-icons">
+										<ul>
+											<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+											<li><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+											<li><a href="#" target="_blank"><i class="fab fa-google-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end copyright -->
+					<script src="../public/js/heading.js"></script>
+					<script src="js/main.js"></script>
+					<script src="../public/js/opption.js"></script>
+					<script src="../public/js/autofill.js"></script>
+					<script src="./assts/js/bootstrap.js"></script>
+					<script src="./assts/js/bootstrap.min.js"></script>
+					<script src="./assts/js/jquery.min.js"></script>
+					<script src="./assts/js/pooper.min.js"></script>
+						
+</body>
+
+</html>
+</body>
+
+</html>
