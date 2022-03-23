@@ -603,6 +603,9 @@ color: #d84f57;
 	#about img{
 		height: unset;
 	}
+	#about .icons-container{
+		display: grid;
+	}
 	#about .abt , span{
 		font-size: 16px;
 		float: none;
