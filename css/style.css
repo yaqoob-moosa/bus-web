@@ -600,11 +600,7 @@ color: #d84f57;
 	.ff , p{
      font-size: 12px;
 	}
-	#about img{
-		float: none;
-		width: 204%;
-		margin-left: 25%;
-	}
+	
 	#about .abt , span{
 		font-size: 16px;
 		float: none;
