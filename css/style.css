@@ -589,7 +589,7 @@ color: #d84f57;
 }
 @media only screen and (max-width: 600px) {
 	.vehicles-card .card{
-		height: 100px;
+		height: 180px;
 	}
 	#payment .col-md-3{
 		width: 25%;
