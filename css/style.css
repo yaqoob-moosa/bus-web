@@ -602,13 +602,15 @@ color: #d84f57;
 	}
 	#about img{
 		float: none;
-		width: 100%;
-		margin-left: 0%;
+		width: 204%;
+		margin-left: 25%;
 	}
 	#about .abt , span{
-		font-size: 30px;
+		font-size: 16px;
 		float: none;
     text-align: center;
+	justify-content: center;
+	justify-items: center;
 	}
 	#discount img{
 		width: 100%;
