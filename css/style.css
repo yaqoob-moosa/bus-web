@@ -806,4 +806,7 @@ color: #d84f57;
 		.icons-container{
 			display: grid;
 		}
+		#contact h1 , p{
+			text-align: center;
+		}
 	  }
