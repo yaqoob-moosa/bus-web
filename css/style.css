@@ -275,29 +275,49 @@ form i{
 .contant .p{
 	font-size: 5px;
 }
-#facity{
+/*---Facility---*/
+#facility{
+	margin-top: 10%;
 	position: relative;
 	width: 100%;
-background-size: cover;
-background-repeat: no-repeat;
-}
-#facity  .card-per{
-	font-size: 13px;
+	height: 87vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+  
+  }
+  .title{
+	justify-content: center;
+	align-items: center;
 	text-align: center;
-}
-#facity .card-heading{
-	color: #d84f57;
-	font-style: bold;
-	text-align: center;
-}
-#facity .vehicles-card{
+	font-weight: bold;
+	font-size: 2rem;
+	color: #000;
+  }
+  .facility-card{
 	width: 100%;
 	padding: 60px 0px;
-}
-.vehicles-card .card{
-	height: 35vh;
+  }
+  .card-title{
+	text-align: center;
+	color: #e94747;
+	font-size: 20px;
+  }
+  .card-pera{
+	text-align: center;
+	font-size: 13px;
+	color: #000;
+  }
+  .icano{
+	font-size: 80px;
+	text-align: center;
+	margin-top: 10%;
+	color: #e94747;
+  }
+  #facility .card{
 	width: 100%;
-}
+	height: 49vh;
+  }
+  /*----Facility End----*/
 #about{
 	align-items: flex-start;
 	justify-content: center;
@@ -417,30 +437,134 @@ background-repeat: no-repeat;
     transition: all .3s ease-in;
     letter-spacing: 1px;
 }
-.contentt{
-	text-align: center;
-}
-.vehicles-card{
-	text-align: center;
-}
-.vehicles-card i{
-	font-size: 45px;
-	color:#d84f57;
-}
-.vehicles-card{
-	height: 300px;
-}
-.card-body{
+/*---Available Bus Start---*/
+#vehicles{
+	border-radius: 10px;
+	background-color: papayawhip;
+	background-size: cover;
+  }
+  
+  .contentt{
+	margin-top: 5%;
 	justify-content: center;
 	align-items: center;
-	text-align: center;	
-}
-.contente{
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-top: 10%;;
-}
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  #vehicles .vehicles-card{
+	width: 100%;
+	padding: 60px 0px;
+  }
+  
+  #vehicles .card{
+	border: none;
+	box-shadow: 0px 4px 4px 0px #000;
+	border-radius: 8mm;
+	padding: 20px 0px;
+	text-align: center;
+  }
+  
+  #vehicles .card:hover{
+	background: #fff;
+	box-shadow: 3px 3px 10px 6px #6e6b6b;
+  }
+  
+  #vehicles.card img{
+	align-items: center;
+  }
+  
+  #vehicles .card-img-top{
+	border-top-left-radius: calc(1.25rem - 1px);
+	border-top-right-radius: calc(1.25rem - 1px);
+	margin-top: -20px;
+  }
+  .card-heading{
+	text-align: center;
+	color: #3d2514;
+	font-size: 26px;
+  }
+  .card-per{
+	text-align: center;
+	font-size: 16px;
+	color: #3d2514;
+  }
+  #vehicles .btn-primary{
+	background-color: #e94747;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 10px;
+	border: none;
+	color: white;
+	padding: 12px 20px;
+	border-radius: 20px;
+	transition: all .1s;
+	letter-spacing: 1px;
+  }
+  
+  #vehicles .btn-primary:hover, #vehicles .btn-primary:focus{
+	background: transparent;
+	color: #000;
+	border: 2px solid #e94747;
+  }
+  
+  /*---Available Bus End---*/
+  /*---Service Start---*/
+
+#service{
+	position: relative;
+	width: 100%;
+	height: 70vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 30px;
+  }
+  #service .service_content{
+	justify-content: center;
+	align-items:center; 
+	padding-top: 50px;
+  }
+  
+  #service h1{
+	color: #000;
+	text-align: center;
+	font-weight: 700;
+	font-size: 31.5px;
+	letter-spacing: normal;
+  }
+  
+  #service .row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: auto;
+	margin-left: auto;
+  }
+  #service .maine{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+  }
+  #service .card{
+	justify-content: center;
+	align-items: center;
+	margin:1.5rem;
+	width: 156px;
+	height: 165px;
+	background-color:#fff;
+	border-radius: 12.5px;
+  }
+  #service .card h5{
+	color: #e94747;
+	text-align: center;
+	font-size: 14px;
+	font-weight:600;
+	letter-spacing: normal;
+	margin-top: 17px; 
+  }
+  
+  /*---Service End---*/
 .core-title{
   font-size: 30px;
   font-weight: bold;
@@ -455,48 +579,74 @@ background-repeat: no-repeat;
 	align-items: center;
 
 }
+/* payment */
 
-#payment img {
-	margin-left: auto;
-  	margin-right: auto;
-  	width: 60%;
- 
- 
-}
-#payment img:hover {
-	cursor: auto;
-	background-color: lightgray;
-	transition: all 1s ease;
-}
-#payment h1{
-	text-align: center;
-	cursor: pointer;
-}
-#payment h1:hover{
-	color:#d84f57 ;
-	cursor: pointer;
-	transition: all 1s ease;
-}
-#sections{
-	margin: 60px;
+#payment{
+	position: relative;
 	width: 100%;
-    margin-left: auto;
-    margin-right: auto
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #fff;
+  }
+  .contantt h1{
+	text-align: center;
+	margin-top: 10%;
+	font-weight: bold;
+	font-size: 2rem;
+	color: #000;
+  }
+  
+  #payment .contentt{
+	justify-content: center;
+	align-items:center; 
+	padding-top: 50px;
+  }
+  
+  #payment h1{
+	color: #000;
+	text-align: center;
+	font-weight: 700;
+	font-size: 31.5px;
+	letter-spacing: normal;
+  }
+  
+  #payment .row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: auto;
+	margin-left: auto;
+  }
+  #payment .mainea{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+  }
+  #payment .card{
+	justify-content: center;
+	align-items: center;
+	margin:1.5rem;
+	width: 156px;
+	height: 165px;
+	border: none;
+  }
+  #payment .card h5{
+	color: #e94747;
+	text-align: center;
+	font-size: 18px;
+	font-weight:600;
+	letter-spacing: normal;
+	margin-top: 17px; 
+  }
+/* end */
+
+/* form */
+.contentte i{
+	color: #d84f57;
 }
-#sections .card{
-	    border: 1px solid rgba(0,0,0,.125);
-    border-radius: 7mm;
-}
-#sections .card img:hover{
-	    border: 1px solid rgba(0,0,0,.125);
-    border-radius: 7mm;
-}
-#sections .card:hover{
-	    background-color: gray;
-	    transition: all 1s ease;
-	    cursor: pointer;}
-		/* f */
-.col_white_amrc { color:#FFF;}
+/* end */
+
+.col_white_amrc { color:black;}
 footer { width:100%; 
 	 min-height:250px;
 	 padding:10px 0px 25px 0px ;}
@@ -553,82 +703,107 @@ color: #d84f57;
 	color:#d84f57 ;
 	font-size: 30px;
 }
-@media only screen and  (max-width:768px){
-	#facity{
-		height: unset;
+@media only screen and (max-width: 768px){
+	.abt-img {
+	  margin-top: 10rem;
 	}
-	#section{
-		height: unset;
-		margin-top: 1%;
-		display: inline-block
+	.dis-img{
+	  margin-top: 16%;
 	}
-	#facity  .card-per{
-		font-size: 8px;
-		text-align: center;
+	#facility {
+	  height: unset;
 	}
-	#facity .card-heading{
-		font-size: 10px;
-		text-align: center;
+	.facility-card {
+	  padding: 60px 0px;
 	}
-	#section .col-lg-6{
-		width: 60%;
+	#facility .card{
+	  height: unset;
 	}
-	.vehicles-card .card{
-		width: 100%;
-		height: unset;
+	#service .maine {
+	  width: unset;
 	}
-	#footer h5 {
-		padding-left: 0;
-		border-left: transparent;
-		padding-bottom: 0px;
-		margin-bottom: 10px;
+	#core {
+	  height: unset;
 	}
-}
-@media only screen and (max-width: 600px) {
-	.vehicles-card .card{
-		height: 180px;
+	#payment .mainea {
+	  width: 100%;
 	}
-	#payment .col-md-3{
-		width: 25%;
-		display: inline-block;
-		justify-content: center;
-		justify-items: center;
-	}
-	.ff , p{
-     font-size: 12px;
-	}
-	#about img{
-		height: unset;
-	}
-	#about .icons-container{
+	} 
+	@media only screen and (max-width: 425px){
+	  #facility{
+	  margin-top: 20%;
+	  }
+	.abt-img{
+	  margin-top: 3rem;
+	  width: 308px;
+	  }
+	  #discount{
+	  height: unset;
+	  }
+	  #discount img{
+	  width: 100%;
+	  }
+	  #vehicles{
+	  height: unset;
+	  }
+	  #service{
+	  height: unset;
+	  }
+	  #service .row{
+	  margin-left: 38px;
+	  }
+	  #payment{
+	  height: unset;
+	  }
+	  #payment .mainea {
+	  width: 66%;
+	  }
+	  #contact{
+	  height: unset;
+	  }
+	  .icons-container{
 		display: grid;
 	}
-	#about .abt , span{
-		font-size: 16px;
-		float: none;
-    text-align: center;
-	justify-content: center;
-	justify-items: center;
 	}
-	#discount img{
-		width: 100%;
-		margin-top: 14%;
+	@media only screen and (max-width: 375px){
+	.facility-card {
+		padding: 15px 0px;
+	  }
+	.abt-img{
+		width: 270px;
+	  }
+	  #service .row {
+		margin-left: 24px;
+	  }
+	  .icons-container{
+		  display: grid;
+	  }
 	}
-	nav ul{
-		margin-left: -113%;
-		background-color: white;
+	@media only screen and (max-width: 320px){
+	  #facility {
+		margin-top: 25%;
+	  }
+	  .abt-img {
+		width: 220px;
+	  }
+	  #service .row {
+		margin-left: 10px;
+	  }
+	  #payment .mainea {
+		width: 85%;
+	  }
+	  .icons-container{
+		display: grid;
 	}
-	nav form{
-		float:left;
-		font-size: 35px;
 	}
-	.dropdown{
-		font-size: 14px;
-	}
-}
-@media only screen and (max-width: 1440px) {
-	.vehicles-card .card{
-		height: 70vh;
-	}
-}  
-
+	@media only screen and (max-width: 600px) {
+		.contentte{
+			text-align: center;
+		}
+		.contentte h5, p{
+			text-align: center;
+		}
+		.icons-container{
+			display: grid;
+		}
+	  }
